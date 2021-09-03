@@ -14,3 +14,9 @@ D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debu
 D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\obj\Debug\ElevenNote.Services.csproj.CopyComplete
+D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll
+D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll
+D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.pdb
+D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Data.dll.config
+D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.pdb
+D:\ElevenFiftyProjects\ElevenNote_WebAPI\ElevenNote\ElevenNote.Services\bin\Debug\ElevenNote.Models.dll.config
