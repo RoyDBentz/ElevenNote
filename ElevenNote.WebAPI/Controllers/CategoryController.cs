@@ -9,7 +9,7 @@ using System.Net.Http;
 using System.Web.Http;
 
 namespace ElevenNote.WebAPI.Controllers
-{
+{    /*
     [Authorize]
     public class CategoryController : ApiController
     {
@@ -19,5 +19,5 @@ namespace ElevenNote.WebAPI.Controllers
             var category = categoryService.GetCategories();
             return Ok(category);
         }
-    }
+    }*/
 }

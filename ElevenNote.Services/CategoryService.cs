@@ -46,7 +46,7 @@ namespace ElevenNote.Services
 
                                 new CategoryListItem
                                 {
-                                    CategoryId = c.CategoryId,
+                                    CategoryId = c.CategoriesId,
                                     Title = c.Title,
                                     CreatedUtc = c.CreatedUtc
                                 }
@@ -62,11 +62,11 @@ namespace ElevenNote.Services
                 var entity =
                     ctx
                         .Categories
-                        .Single(c => c.CategoryId && c.OwnerId == _userId);
+                        .Single(c => c.CategoriesId == id && c.OwnerId == _userId);
                 return
                     new CategoryDetail
                     {
-                        CategoryId = entity.CategoryId,
+                        CategoryId = entity.CategoriesId,
                         Title = entity.Title,
                         Content = entity.Content,
                         CreatedUtc = entity.CreatedUtc,
@@ -81,7 +81,7 @@ namespace ElevenNote.Services
                 var entity =
                     ctx
                         .Categories
-                        .Single(c => c.CategoryId == model.CategoryId && c.OwnerId == _userId);
+                        .Single(c => c.CategoriesId == model.CategoryId && c.OwnerId == _userId);
 
                 entity.Title = model.Title;
                 entity.Content = model.Content;
@@ -99,7 +99,7 @@ namespace ElevenNote.Services
                 var entity =
                     ctx
                         .Categories
-                        .Single(c => c.CategoryId == catergoryId && c.OwnerId == _userId);
+                        .Single(c => c.CategoriesId == catergoryId && c.OwnerId == _userId);
 
                 return ctx.SaveChanges() == 1;
             }
